@@ -1,0 +1,26 @@
+{
+  "name": "gear-lab",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "直齿轮参数化啮合实验室：纯浏览器（Vue 3 + TypeScript + Three.js + Clipper2 WASM + IndexedDB）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "verify": "node verify/run.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "clipper2-wasm": "^0.4.0",
+    "three": "^0.186.1",
+    "vue": "^3.5.43"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-vue": "^6.0.9",
+    "esbuild": "^0.28.2",
+    "typescript": "5.6",
+    "vite": "^8.3.1",
+    "vue-tsc": "^2.1.10"
+  }
+}
